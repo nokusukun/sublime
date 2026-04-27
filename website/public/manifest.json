@@ -1,0 +1,55 @@
+{
+  "name": "Sublime — Code craft for AI agents",
+  "short_name": "Sublime",
+  "description": "A code-craft skill for AI coding agents. Opinionated positions, anti-pattern catalog, and verb library.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1c1917",
+  "theme_color": "#f59e0b",
+  "orientation": "any",
+  "categories": ["developer-tools", "education"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Foundation",
+      "short_name": "Foundation",
+      "url": "/docs/foundation",
+      "description": "Read the core foundation skill"
+    },
+    {
+      "name": "Anti-patterns",
+      "short_name": "Anti-patterns",
+      "url": "/docs/anti-patterns",
+      "description": "Browse the anti-pattern catalog"
+    },
+    {
+      "name": "Commands",
+      "short_name": "Commands",
+      "url": "/docs/commands/audit",
+      "description": "Browse verb commands"
+    }
+  ]
+}
