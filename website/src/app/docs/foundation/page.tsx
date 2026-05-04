@@ -6,8 +6,9 @@ export const metadata = {
 };
 
 export default async function FoundationPage() {
-  const content = getMarkdownContent("sublime/SKILL.md");
-  const html = await renderMarkdown(content);
+  const sourcePath = "sublime/SKILL.md";
+  const content = getMarkdownContent(sourcePath);
+  const html = await renderMarkdown(content, sourcePath);
 
   return (
     <div

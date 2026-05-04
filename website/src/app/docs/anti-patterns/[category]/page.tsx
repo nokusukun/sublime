@@ -42,8 +42,9 @@ export default async function AntiPatternCategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const { category } = await params;
-  const content = getMarkdownContent(`anti-patterns/${category}.md`);
-  const html = await renderMarkdown(content);
+  const sourcePath = `anti-patterns/${category}.md`;
+  const content = getMarkdownContent(sourcePath);
+  const html = await renderMarkdown(content, sourcePath);
 
   return (
     <div

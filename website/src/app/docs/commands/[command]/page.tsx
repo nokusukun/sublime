@@ -37,8 +37,9 @@ export default async function CommandPage({
   params: Promise<{ command: string }>;
 }) {
   const { command } = await params;
-  const content = getMarkdownContent(`${command}/SKILL.md`);
-  const html = await renderMarkdown(content);
+  const sourcePath = `${command}/SKILL.md`;
+  const content = getMarkdownContent(sourcePath);
+  const html = await renderMarkdown(content, sourcePath);
 
   return (
     <div

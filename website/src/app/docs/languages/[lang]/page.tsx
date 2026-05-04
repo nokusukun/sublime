@@ -32,8 +32,9 @@ export default async function LanguagePage({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const content = getMarkdownContent(`languages/${lang}/SKILL.md`);
-  const html = await renderMarkdown(content);
+  const sourcePath = `languages/${lang}/SKILL.md`;
+  const content = getMarkdownContent(sourcePath);
+  const html = await renderMarkdown(content, sourcePath);
 
   return (
     <div
