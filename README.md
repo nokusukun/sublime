@@ -46,7 +46,7 @@ Adding a new language is a directory: `languages/<lang>/SKILL.md` + `languages/<
 No package manager. No CLI. Just the files.
 
 ```bash
-git clone https://github.com/<org>/sublime
+git clone https://github.com/nokusukun/sublime
 ```
 
 Every top-level directory containing a `SKILL.md` is an [Agent Skill](https://agentskills.io/spec). Point your agent harness at the ones you want to load. For Claude Code, symlink or copy them into `.claude/skills/`:

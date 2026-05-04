@@ -229,7 +229,7 @@ export default function Home() {
           project.
         </p>
         <pre className="bg-code-bg text-code-fg px-5 py-4 rounded-lg font-mono text-sm overflow-x-auto mb-5 border border-border">
-          <code>git clone https://github.com/sublime-code/sublime</code>
+          <code>git clone https://github.com/nokusukun/sublime</code>
         </pre>
         <p className="text-muted text-sm leading-relaxed">
           Then symlink the foundation skill into your project root. For

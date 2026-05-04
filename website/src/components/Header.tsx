@@ -48,7 +48,7 @@ export default function Header() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/sublime-code/sublime"
+              href="https://github.com/nokusukun/sublime"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View on GitHub"
